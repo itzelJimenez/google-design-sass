@@ -55,4 +55,31 @@
 .col-12 {
   width: 100%; }
 
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+header nav {
+  height: 50px;
+  display: flex;
+  justify-content: center; }
+  header nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    header nav ul li {
+      display: inline-block;
+      margin: 0 .5625rem;
+      padding: 0 .75rem; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #414549;
+        font-family: 'Roboto', sans-serif;
+        font-size: .875rem;
+        font-weight: 600;
+        height: 100%; }
+
 /*# sourceMappingURL=style.css.map */

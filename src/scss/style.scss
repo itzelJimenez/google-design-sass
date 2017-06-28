@@ -1,5 +1,41 @@
+
+
 @import 'variables';
 @import 'mixin';
 @import 'grid';
 @import 'funciones';
 
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+header{
+	nav{
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		ul{
+			list-style:none;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			li{
+				display: inline-block;
+				margin: 0 .5625rem;
+	    		padding: 0 .75rem;
+
+				a{
+					text-decoration:none;
+					color: $gris-nav;
+					font-family: 'Roboto', sans-serif;
+					font-size: .875rem;
+					font-weight: 600;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+}
