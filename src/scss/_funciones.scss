@@ -16,7 +16,7 @@
 }
 
 @for $titulos from 1 through 3 {
-	#{'.title-section'}{
+	#{h2}{
 		@include title-section;
 		@include generalTextFormat(1.5rem);
 	}
@@ -33,16 +33,11 @@
 	}
 }
 
-@for $formatMediaColum from 1 through 3 {
-	#{'.col-content-left'}{
-		margin-left: 0%;
-		border: solid 2px;
-	}
-}
-
-@for $formatMediaColum from 1 through 3 {
-	#{'.col-content-right'}{
-		margin-right: 0%;
-		border: solid 2px;
+@for $formatP from 1 through 3{
+	#{p}{
+		@include formatP(1.2rem);
+		@include generalTextFormat(1.125rem);
+		color: #414549;
+		margin-top:2.5%;
 	}
 }

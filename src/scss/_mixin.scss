@@ -12,12 +12,11 @@
 @mixin title-section(){
 	font-weight: lighter;
 	color: $gris-texto;
-	padding: 2.5625rem 0;
 	letter-spacing: .5px;
 }
 
-@mixin formatP(){
-	line-height: 2.125rem;
+@mixin formatP($line-height){
+	line-height: $line-height;
 	color: $gris-texto
 }
 

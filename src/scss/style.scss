@@ -50,7 +50,7 @@ header{
 	}
 	&__p{
 		@include generalTextFormat(1.125rem);
-		@include formatP;
+		@include formatP(2.125rem);
 	}
 	span{
 		@extend .text__p;
@@ -59,4 +59,12 @@ header{
 
 .home-container{
 	margin:6% 2% 0 2%;
+}
+.fecha{
+	margin-top: 0px;
+	@include generalTextFormat(1rem);
+}
+
+.padding-top{
+	padding: 2.5625rem 0;
 }
