@@ -9,16 +9,26 @@
 }
 
 
-@for $formatoSeccion from 1 through 3 {
-	#{'.home-container'}{
-		margin:6% 2% 0 2%;
+@for $topBorder from 1 through 3{
+	#{section}{
+		@include sectionFormat;
 	}
 }
 
-@for $topBorder from 1 through 3{
-	#{section}{
-		margin: 3%;
-		margin-top: 7.327rem;
-		border-top: 4px solid $azul;
+@for $titulos from 1 through 3 {
+	#{'.title-section'}{
+		@include title-section;
+		@include generalTextFormat(1.5rem);
+	}
+}
+
+@for $links from 1 through 3 {
+	#{'.external-link'}{
+		@include linkFormat(0.875rem);
+		color: $azul;
+		float: right;
+		padding: 2.5625rem 0;
+		margin-right: 0.875rem;
+		letter-spacing: .5px;
 	}
 }
