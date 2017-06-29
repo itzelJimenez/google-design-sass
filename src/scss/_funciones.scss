@@ -32,3 +32,17 @@
 		letter-spacing: .5px;
 	}
 }
+
+@for $formatMediaColum from 1 through 3 {
+	#{'.col-content-left'}{
+		margin-left: 0%;
+		border: solid 2px;
+	}
+}
+
+@for $formatMediaColum from 1 through 3 {
+	#{'.col-content-right'}{
+		margin-right: 0%;
+		border: solid 2px;
+	}
+}

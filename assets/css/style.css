@@ -133,6 +133,30 @@ section {
   margin-right: 0.875rem;
   letter-spacing: .5px; }
 
+.col-content-left {
+  margin-left: 0%;
+  border: solid 2px; }
+
+.col-content-left {
+  margin-left: 0%;
+  border: solid 2px; }
+
+.col-content-left {
+  margin-left: 0%;
+  border: solid 2px; }
+
+.col-content-right {
+  margin-right: 0%;
+  border: solid 2px; }
+
+.col-content-right {
+  margin-right: 0%;
+  border: solid 2px; }
+
+.col-content-right {
+  margin-right: 0%;
+  border: solid 2px; }
+
 .left {
   float: left; }
 
