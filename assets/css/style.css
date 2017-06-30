@@ -136,7 +136,7 @@ p {
   font-size: 1.125rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #414549;
-  margin-top: 2.5%; }
+  margin-top: 0%; }
 
 p {
   line-height: 1.2rem;
@@ -144,7 +144,7 @@ p {
   font-size: 1.125rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #414549;
-  margin-top: 2.5%; }
+  margin-top: 0%; }
 
 p {
   line-height: 1.2rem;
@@ -152,7 +152,50 @@ p {
   font-size: 1.125rem;
   font-family: 'Source Sans Pro', sans-serif;
   color: #414549;
-  margin-top: 2.5%; }
+  margin-top: 0%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+div.under-div {
+  display: inline-block;
+  margin-top: 1.2rem; }
+
+img.top-header, h2.top-header {
+  padding: 2.5625rem 0; }
+
+section.min-section {
+  margin-top: 0px; }
+
+div.col-4.card {
+  padding: 2%; }
 
 .left {
   float: left; }
@@ -211,7 +254,9 @@ header {
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif; }
 
-.padding-top {
-  padding: 2.5625rem 0; }
+.card {
+  padding: 5%; }
+  .card:hover {
+    box-shadow: 5px 5px 5px #888; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,10 @@
 @function anchoColumnas($columns){
-	@return percentage(($columns/12))
+	@return percentage(($columns/12));
 }
 
 @for $numColumna from 1 through 12{
 	.col-#{$numColumna}{
-		width: anchoColumnas($numColumna)
+		width: anchoColumnas($numColumna);
 	}
 }
 
@@ -27,7 +27,7 @@
 		@include linkFormat(0.875rem);
 		color: $azul;
 		float: right;
-		padding: 2.5625rem 0;
+		padding: $padding-top-header;
 		margin-right: 0.875rem;
 		letter-spacing: .5px;
 	}
@@ -38,6 +38,41 @@
 		@include formatP(1.2rem);
 		@include generalTextFormat(1.125rem);
 		color: #414549;
-		margin-top:2.5%;
+		margin-top:0%;
+	}
+}
+
+@for $responsive from 1 through 10{
+	#{img}{
+		width: 100%;
+	}
+}
+
+$margin-top: margin-top;
+$padding-null: padding-top;
+
+div.under-div{
+	@if #{$margin-top == 0px}{
+		display: inline-block;
+		margin-top: 1.2rem;
+	} @else{
+		margin-top: 0;
+	}
+}
+
+img.top-header, h2.top-header{
+	@if #{ $padding-null == 0px}{
+		padding: $padding-top-header;
+	}
+}
+
+section.min-section{
+	@if #{$margin-top ==  7.327rem}{
+		margin-top: 0px;
+	}
+}
+div.col-4.card{
+	@if #{$padding-null==5% }{
+		padding: 2%;
 	}
 }
